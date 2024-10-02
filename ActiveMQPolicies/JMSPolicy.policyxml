@@ -9,7 +9,7 @@
     <proprietaryAPIAttr3>default_none</proprietaryAPIAttr3>
     <proprietaryAPIAttr4>default_none</proprietaryAPIAttr4>
     <proprietaryAPIAttr5>default_none</proprietaryAPIAttr5>
-    <jndiEnvironmentParms>java.naming.provider.url=ssl://cedars.dolbyfamily.org:61616;connectionFactoryNames=connectionFactory,queueConnectionFactory,topicConnectionFactory</jndiEnvironmentParms>
+    <jndiEnvironmentParms>java.naming.provider.url=ssl://active.mq.host:61616;connectionFactoryNames=connectionFactory,queueConnectionFactory,topicConnectionFactory</jndiEnvironmentParms>
     <clientAckBatchSize>0</clientAckBatchSize>
     <clientAckBatchTime>0</clientAckBatchTime>
     <jndiBindingsLocation></jndiBindingsLocation>
