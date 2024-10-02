@@ -1,0 +1,11 @@
+
+
+CREATE COMPUTE MODULE HTTPFlow_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		SET OutputRoot.Properties = InputProperties;
+		SET OutputRoot.JSON.Data.message = 'test';
+		RETURN TRUE;
+	END;
+
+END MODULE;
